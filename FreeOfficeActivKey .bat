@@ -8,7 +8,7 @@ if %i% EQU 3 set KMS=e9.us.to
 if %i% GTR 3 goto ato
 cscript //nologo ospp.vbs /sethst:%KMS% >nul
 :ato
-echo =====================================================================================&echo.&echo.&cscript //nologo ospp.vbs /act | find /i "successful" && (echo.&echo =====================================================================================&echo.&echo #My official blog:#Please feel free to contact me at dadirttheofficial@gmail.com if you have any questions or concerns.&echo.&echo #Please consider supporting this project: https://github.com/dadirttheofficial #Your support is helping me so much!&echo.&echo =====================================================================================
+echo =====================================================================================&echo.&echo.&cscript //nologo ospp.vbs /act | find /i "successful" && (echo.&echo =====================================================================================&echo.&echo #Please feel free to contact me at dadirttheofficial@gmail.com if you have any questions or concerns.&echo.&echo #Please consider supporting this project: https://github.com/dadirttheofficial #Your support is helping me so much!&echo.&echo =====================================================================================
 :notsupported
 echo =====================================================================================&echo.&echo Sorry, your version is not supported.&echo.&goto halt
 :busy
